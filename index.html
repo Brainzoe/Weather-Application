@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Weather App!</h1>
+        <form id="userForm">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" required>
+            <label for="userLocation">Location:</label>
+            <input type="text" id="userLocation" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div class="weather-info">
+            <h2>Weather Information</h2>
+            <p id="weatherData">Weather details will appear here.</p>
+        </div>
+        <div class="country-info">
+            <h2>Country Information</h2>
+            <p id="countryData">Country details will appear here.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
